@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Чат поддержки</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Чат с поддержкой</h1>
+        <p>Общение в реальном времени</p>
+    </header>
+
+    <div id="chat-box">
+        <div id="messages"></div>
+        <textarea id="message-input" placeholder="Введите сообщение..."></textarea>
+        <button id="send-message">Отправить</button>
+    </div>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
